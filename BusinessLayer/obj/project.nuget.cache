@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lSt0KLYtVORkDOjmbhz6Ow4rkau/AWZh5IBM0AmwUITB1jrXZV/n00ESF8OU4juOTez3qRaFGmklQ1KBfFOhqg==",
+  "dgSpecHash": "iHKSKnsF42toHAnLvVRNJhQbL5ru1pHGeKRY8yGqzcuTxkF7KVOXbtiO3N5shGwOPuExEy5Qj3Qi50s6swlJ4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj": {}
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
         "projectName": "CoreDemo",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,14 +89,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,8 +178,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -234,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",

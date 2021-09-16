@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYwyQ6tQ1USPYqwFh76zqiZ/2+8YnJY1tWoBpbLzetFzfhRVrrd/3OAwqE4Aiac1OnY3IRBGy1/APevemm9qzA==",
+  "dgSpecHash": "RCSMsS8muuL9YQ0vQqRvj5FeiTaIXZHFO4K/ozDuk1YynBES4cjn9/aPZfb/vbTkhTr+x0Qx1BOw9VpCaeBlCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

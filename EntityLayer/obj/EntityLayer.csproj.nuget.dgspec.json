@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGFA2F5Kx/NyXBhPgtnYpGjs1EFkTTYdCtcpu2UvpkVutJcYiQvKAGccnPavQFCFupW7czZ2GFe9xC5GhN5LtQ==",
+  "dgSpecHash": "H2HiM6aDAmqhFvNpoAgioZTAGuZllMMggeG5Oxwk+Gn/pR++m4o+1+C5hK+ZO2rmLNUsxuSaKkOe9h9ato5TSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+  "projectFilePath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pantheon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pantheon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

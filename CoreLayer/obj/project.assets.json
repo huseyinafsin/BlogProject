@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pantheon\\source\\repos\\CoreDemo\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
