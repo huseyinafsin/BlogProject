@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.Abstract
+﻿using DataAccessLayer.Abstract; 
 using DataAccessLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
-    public class GenericRepository<T> : Abstract.GenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         public void Delete(T t)
         {

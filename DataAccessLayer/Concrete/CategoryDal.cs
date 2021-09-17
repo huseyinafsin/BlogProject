@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete
 {
-    class CategoryDal
+    public class CategoryDal
     {
     }
 }
