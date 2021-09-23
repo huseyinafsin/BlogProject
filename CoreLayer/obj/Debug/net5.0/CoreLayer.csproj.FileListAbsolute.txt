@@ -21,3 +21,4 @@ C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Debug\net5.0\CoreLayer.
 C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache

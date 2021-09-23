@@ -62,6 +62,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<DateTime>("BlogCreateDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("BlogID1")
+                        .HasColumnType("int");
+
                     b.Property<string>("BlogImage")
                         .HasColumnType("nvarchar(max)");
 
@@ -78,6 +81,8 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("BlogID");
+
+                    b.HasIndex("BlogID1");
 
                     b.HasIndex("CategoryID");
 
@@ -199,6 +204,10 @@ namespace DataAccessLayer.Migrations
 
             modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
                 {
+                    b.HasOne("EntityLayer.Concrete.Blog", null)
+                        .WithMany("Comments")
+                        .HasForeignKey("BlogID1");
+
                     b.HasOne("EntityLayer.Concrete.Category", "Category")
                         .WithMany("Blogs")
                         .HasForeignKey("CategoryID")
@@ -211,7 +220,7 @@ namespace DataAccessLayer.Migrations
             modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
                 {
                     b.HasOne("EntityLayer.Concrete.Blog", "Blog")
-                        .WithMany("Comments")
+                        .WithMany()
                         .HasForeignKey("BlogID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
