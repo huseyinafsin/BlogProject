@@ -13,8 +13,14 @@ namespace CoreDemo.Controllers
         BlogManager blogManager = new BlogManager(new EFBlogRepository());
         public IActionResult Index()
         {
-            var values = blogManager.GetBlogs();
+            var values = blogManager.GetBlogListWithCatgory();
             return View(values);
+        }
+
+        public IActionResult BlogReadAll(int id)
+        {
+            var value = blogManager.GetBlog(id);
+            return View(value);
         }
     }
 }

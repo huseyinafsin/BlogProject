@@ -11,36 +11,41 @@ namespace BusinessLayer.Concrete
 {
     public class BlogManager : IBlogService
     {
-        IBlogDal blogDal;
+        IBlogDal _blogDal;
 
         public BlogManager(IBlogDal blogDal)
         {
-            this.blogDal = blogDal;
+            _blogDal = blogDal;
         }
 
         public void BlogAdd(Blog blog)
         {
-            blogDal.Insert(blog);
+            _blogDal.Insert(blog);
         }
 
         public void BlogDelete(Blog blog)
         {
-            blogDal.Delete(blog);
+            _blogDal.Delete(blog);
         }
 
         public void BlogUpdate(Blog blog)
         {
-            blogDal.Update(blog);
+            _blogDal.Update(blog);
         }
 
         public Blog GetBlog(int id)
         {
-            return blogDal.GetById(id);
+            return _blogDal.GetById(id);
+        }
+
+        public List<Blog> GetBlogListWithCatgory()
+        {
+            return _blogDal.GetListWithCtegories();
         }
 
         public List<Blog> GetBlogs()
         {
-            return blogDal.GetListAll();
+            return _blogDal.GetListAll();
         }
     }
 }
