@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210923183619_init")]
+    [Migration("20211003085327_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,11 +82,16 @@ namespace DataAccessLayer.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
+                    b.Property<int>("WriterID")
+                        .HasColumnType("int");
+
                     b.HasKey("BlogID");
 
                     b.HasIndex("BlogID1");
 
                     b.HasIndex("CategoryID");
+
+                    b.HasIndex("WriterID");
 
                     b.ToTable("Blogs");
                 });
@@ -146,7 +151,7 @@ namespace DataAccessLayer.Migrations
 
             modelBuilder.Entity("EntityLayer.Concrete.Contact", b =>
                 {
-                    b.Property<int>("ContactId")
+                    b.Property<int>("ContactID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -169,39 +174,39 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
-                    b.HasKey("ContactId");
+                    b.HasKey("ContactID");
 
                     b.ToTable("Contacts");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.Writter", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
-                    b.Property<int>("WritterID")
+                    b.Property<int>("WriterID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("WritterAbout")
+                    b.Property<string>("WriterAbout")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("WritterImage")
+                    b.Property<string>("WriterImage")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("WritterMail")
+                    b.Property<string>("WriterMail")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("WritterName")
-                        .HasColumnType("int");
-
-                    b.Property<string>("WritterPassword")
+                    b.Property<string>("WriterName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("WritterStatus")
+                    b.Property<string>("WriterPassword")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("WriterStatus")
                         .HasColumnType("bit");
 
-                    b.HasKey("WritterID");
+                    b.HasKey("WriterID");
 
-                    b.ToTable("Writters");
+                    b.ToTable("Writers");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
@@ -216,7 +221,15 @@ namespace DataAccessLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EntityLayer.Concrete.Writer", "Writer")
+                        .WithMany("Blogs")
+                        .HasForeignKey("WriterID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Writer");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
@@ -236,6 +249,11 @@ namespace DataAccessLayer.Migrations
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Category", b =>
+                {
+                    b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Navigation("Blogs");
                 });

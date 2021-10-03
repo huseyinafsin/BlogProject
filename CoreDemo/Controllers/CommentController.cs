@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +10,13 @@ namespace CoreDemo.Controllers
 {
     public class CommentController : Controller
     {
+        ICommentService _commentService;
+
+        public CommentController(ICommentService commentService)
+        {
+            _commentService = commentService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -19,10 +28,11 @@ namespace CoreDemo.Controllers
             return PartialView();
         } 
         
-        public PartialViewResult CommentListByBlog()
+        public PartialViewResult CommentListByBlog(int id)
         {
+            var values = _commentService.GetCommentsByBlog(id);
 
-            return PartialView();
+            return PartialView(values);
         }
     }
 }

@@ -44,7 +44,7 @@ namespace DataAccessLayer.Migrations
                 name: "Contacts",
                 columns: table => new
                 {
-                    ContactId = table.Column<int>(type: "int", nullable: false)
+                    ContactID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ContactUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ContactMail = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -55,25 +55,25 @@ namespace DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Contacts", x => x.ContactId);
+                    table.PrimaryKey("PK_Contacts", x => x.ContactID);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Writters",
+                name: "Writers",
                 columns: table => new
                 {
-                    WritterID = table.Column<int>(type: "int", nullable: false)
+                    WriterID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    WritterName = table.Column<int>(type: "int", nullable: false),
-                    WritterAbout = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    WritterImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    WritterMail = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    WritterPassword = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    WritterStatus = table.Column<bool>(type: "bit", nullable: false)
+                    WriterName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    WriterAbout = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    WriterImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    WriterMail = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    WriterPassword = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    WriterStatus = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Writters", x => x.WritterID);
+                    table.PrimaryKey("PK_Writers", x => x.WriterID);
                 });
 
             migrationBuilder.CreateTable(
@@ -89,6 +89,7 @@ namespace DataAccessLayer.Migrations
                     BlogCreateDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BlogStatus = table.Column<bool>(type: "bit", nullable: false),
                     CategoryID = table.Column<int>(type: "int", nullable: false),
+                    WriterID = table.Column<int>(type: "int", nullable: false),
                     BlogID1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -105,6 +106,12 @@ namespace DataAccessLayer.Migrations
                         column: x => x.CategoryID,
                         principalTable: "Categories",
                         principalColumn: "CategoryID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Blogs_Writers_WriterID",
+                        column: x => x.WriterID,
+                        principalTable: "Writers",
+                        principalColumn: "WriterID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -143,6 +150,11 @@ namespace DataAccessLayer.Migrations
                 column: "CategoryID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Blogs_WriterID",
+                table: "Blogs",
+                column: "WriterID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Comments_BlogID",
                 table: "Comments",
                 column: "BlogID");
@@ -160,13 +172,13 @@ namespace DataAccessLayer.Migrations
                 name: "Contacts");
 
             migrationBuilder.DropTable(
-                name: "Writters");
-
-            migrationBuilder.DropTable(
                 name: "Blogs");
 
             migrationBuilder.DropTable(
                 name: "Categories");
+
+            migrationBuilder.DropTable(
+                name: "Writers");
         }
     }
 }

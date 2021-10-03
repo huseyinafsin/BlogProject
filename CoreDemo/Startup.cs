@@ -1,3 +1,7 @@
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
+using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +28,15 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<IBlogService, BlogManager>();
+            services.AddTransient<ICategoryService, CategoryManager>();
+            services.AddTransient<ICommentService, CommentManager>();
+            services.AddTransient<IWriterService, WriterManager>();
+
+            services.AddTransient<IBlogDal, EFBlogRepository>();
+            services.AddTransient<ICategoryDal, EFCategoryRepository>();
+            services.AddTransient<ICommentDal, EFCommentRepository>();
+            services.AddTransient<IWriterDal, EFWriterRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,6 +45,7 @@ namespace CoreDemo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {

@@ -18,7 +18,9 @@ namespace EntityLayer.Concrete
         public DateTime BlogCreateDate { get; set; }
         public bool BlogStatus { get; set; }
         public int CategoryID { get; set; }
-        public Category Category { get; set; }
+        public Category Category { get; set; } 
+        public int WriterID { get; set; }
+        public Writer Writer{ get; set; }
         public List<Blog> Comments { get; set; }
 
 
