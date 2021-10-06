@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EntityLayer.Concrete;
 
 namespace CoreDemo.Controllers
 {
@@ -17,15 +18,27 @@ namespace CoreDemo.Controllers
             _commentService = commentService;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
         
+        [HttpGet]
         public PartialViewResult PartialAddComment()
         {
 
             return PartialView();
+        } 
+        [HttpPost]
+        public PartialViewResult PartialAddComment(Comment comment )
+        {
+            comment.CommentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+            comment.CommentStatus = true;
+            comment.BlogID = 2;
+            _commentService.CommentAdd(comment);
+
+            return PartialView(null);
         } 
         
         public PartialViewResult CommentListByBlog(int id)
