@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-   public class About
-    {
+   public class About : IEnumerable
+   {
         [Key]
         public int AboutID { get; set; }
         public string AboutDetails1 { get; set; }
@@ -18,5 +19,9 @@ namespace EntityLayer.Concrete
         public string AboutMapLocation { get; set; }
         public bool AboutStatus { get; set; }
 
-    }
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+   }
 }

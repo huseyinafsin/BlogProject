@@ -33,12 +33,16 @@ namespace CoreDemo
             services.AddTransient<ICommentService, CommentManager>();
             services.AddTransient<IWriterService, WriterManager>();
             services.AddTransient<INewsletterService, NewsletterManager>();
+            services.AddTransient<IAboutService, AboutManager>();
+            services.AddTransient<IContactService, ContactManager>();
 
             services.AddTransient<IBlogDal, EFBlogRepository>();
             services.AddTransient<ICategoryDal, EFCategoryRepository>();
             services.AddTransient<ICommentDal, EFCommentRepository>();
             services.AddTransient<IWriterDal, EFWriterRepository>();
             services.AddTransient<INewsletterDal, EfNewsletterRepository>();
+            services.AddTransient<IAboutDal, EFAboutRepository>();
+            services.AddTransient<IContactDal, EFContactRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
