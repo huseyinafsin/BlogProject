@@ -2,8 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\pantheon\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\pantheon\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+      "C:\\Users\\pantheon\\.nuget\\packages"
     ]
   }
 }

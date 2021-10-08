@@ -134,7 +134,6 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\CoreDemo.Mv
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\CoreDemo.RazorAssemblyInfo.cache
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\CoreDemo.RazorAssemblyInfo.cs
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\staticwebassets\CoreDemo.StaticWebAssets.Manifest.cache
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\staticwebassets\CoreDemo.StaticWebAssets.xml
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\scopedcss\bundle\CoreDemo.styles.css
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\CoreDemo.TagHelpers.input.cache
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\CoreDemo.TagHelpers.output.cache
@@ -251,3 +250,5 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\Razor\Views
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net5.0\libman.json
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\Razor\Views\About\SocialMedyaAbout.cshtml.g.cs
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net5.0\staticwebassets\CoreDemo.StaticWebAssets.xml

@@ -8,8 +8,7 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pantheon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\pantheon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -20,13 +19,9 @@
       "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

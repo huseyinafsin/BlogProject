@@ -2,9 +2,11 @@ using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -27,7 +29,18 @@ namespace CoreDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                                 .RequireAuthenticatedUser()
+                                 .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+
+            });
+            services.AddSession();
             services.AddControllersWithViews();
+
             services.AddTransient<IBlogService, BlogManager>();
             services.AddTransient<ICategoryService, CategoryManager>();
             services.AddTransient<ICommentService, CommentManager>();
@@ -43,6 +56,8 @@ namespace CoreDemo
             services.AddTransient<INewsletterDal, EfNewsletterRepository>();
             services.AddTransient<IAboutDal, EFAboutRepository>();
             services.AddTransient<IContactDal, EFContactRepository>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,7 +78,7 @@ namespace CoreDemo
             app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1","?code={0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthorization();
