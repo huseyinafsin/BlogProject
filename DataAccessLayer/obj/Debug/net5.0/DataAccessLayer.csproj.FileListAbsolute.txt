@@ -29,7 +29,6 @@ C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\Data
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb

@@ -14,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace CoreDemo
 {
@@ -38,6 +40,14 @@ namespace CoreDemo
                 config.Filters.Add(new AuthorizeFilter(policy));
 
             });
+            services.AddMvc();
+            services.AddAuthentication(
+                    CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(x =>
+                {
+                    x.LoginPath = "/Login/Index";
+                });
+     
             services.AddSession();
             services.AddControllersWithViews();
 
@@ -81,6 +91,7 @@ namespace CoreDemo
             app.UseSession();
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

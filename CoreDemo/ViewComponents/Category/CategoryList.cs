@@ -18,7 +18,7 @@ namespace CoreDemo.ViewComponents.Category
         }
         public IViewComponentResult Invoke()
         {
-            var values = _categoryService.GetCategories();
+            var values = _categoryService.GetList();
 
             return View(values);
         }
