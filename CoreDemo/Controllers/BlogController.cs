@@ -87,5 +87,40 @@ namespace CoreDemo.Controllers
 
             return View();
         }
+
+        public IActionResult DeleteBlog(int id)
+        {
+            var blogvalue = _blogService.GetById(id); 
+            _blogService.TDelete(blogvalue);
+
+            return RedirectToAction("BlogListByWriter", "Blog");
+        }
+
+
+        [HttpGet]
+        public IActionResult EditBlog(int id)
+        {
+            var blogvalue = _blogService.GetById(id);
+            List<SelectListItem> categoryalues = (from x in _categoryService.GetList()
+                select new SelectListItem
+                {
+                    Text = x.CategoryName,
+                    Value = x.CategoryID.ToString()
+                }).ToList();
+            ViewBag.cv = categoryalues;
+
+            return View(blogvalue);
+        }
+
+
+        [HttpPost]
+        public IActionResult EditBlog(Blog p)
+        {
+            p.BlogID = 1;
+            p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+            p.BlogStatus = true;
+            _blogService.TUpdate(p);
+            return RedirectToAction("BlogListByWriter");
+        }
     }
 }

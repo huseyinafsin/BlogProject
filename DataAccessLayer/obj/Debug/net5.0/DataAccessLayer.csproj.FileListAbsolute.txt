@@ -33,4 +33,3 @@ C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\Data
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
-C:\Users\pantheon\source\repos\BlogProject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
