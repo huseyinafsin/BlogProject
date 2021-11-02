@@ -18,7 +18,7 @@ namespace CoreDemo.ViewComponents.BlogLast3Post
 
         public IViewComponentResult Invoke()
         {
-            var values = _blogService.GetLas3Blog();
+            var values = _blogService.GetLasBlogs(3);
             return View(values);
         }
     }

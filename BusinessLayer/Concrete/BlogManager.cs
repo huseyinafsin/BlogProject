@@ -38,9 +38,14 @@ namespace BusinessLayer.Concrete
 
       
 
-        public List<Blog> GetLas3Blog()
+        public List<Blog> GetLasBlogs(int discount)
         {
-            return _blogDal.GetListAll().Take(3).ToList();
+            return _blogDal.GetListAll().Take(discount).ToList();
+        }    
+        
+        public List<Blog> GetLasBlogsWithCategory(int discount)
+        {
+            return _blogDal.GetListWithCategories().Take(discount).ToList();
         }
 
         public List<Blog> GetList()
