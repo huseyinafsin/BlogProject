@@ -33,7 +33,7 @@ namespace CoreDemo.Controllers
             {
                 model.WriterAbout = "Deneme Test";
                 model.WriterStatus = true;
-                _writerService.WriterAdd(model);
+                _writerService.TAdd(model);
             }
             else
             {
