@@ -5,7 +5,32 @@
       "ProjectGuid": "4da81835-676b-4a95-b2f1-9a39c554d69a",
       "DisplayName": "CoreDemo",
       "ColorIndex": 0
+    },
+    "c9fba3d4-0757-462d-84ac-2e61fa74a9af": {
+      "ProjectGuid": "c9fba3d4-0757-462d-84ac-2e61fa74a9af",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "aa1ce816-1ab4-4e91-8a34-b58418fba000": {
+      "ProjectGuid": "aa1ce816-1ab4-4e91-8a34-b58418fba000",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "a5210f7d-5dc3-4f5c-98b0-967d153d59ee": {
+      "ProjectGuid": "a5210f7d-5dc3-4f5c-98b0-967d153d59ee",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    },
+    "f0e0a466-65f0-43a1-91ca-173a6976f64a": {
+      "ProjectGuid": "f0e0a466-65f0-43a1-91ca-173a6976f64a",
+      "DisplayName": "CoreLayer",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }

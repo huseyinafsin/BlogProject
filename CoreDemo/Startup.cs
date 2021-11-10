@@ -58,6 +58,8 @@ namespace CoreDemo
             services.AddTransient<INewsletterService, NewsletterManager>();
             services.AddTransient<IAboutService, AboutManager>();
             services.AddTransient<IContactService, ContactManager>();
+            services.AddTransient<INotificationService, NotificationManager>();
+            services.AddTransient<IMessageService, MessageManager>();
 
             services.AddTransient<IBlogDal, EFBlogRepository>();
             services.AddTransient<ICategoryDal, EFCategoryRepository>();
@@ -66,6 +68,8 @@ namespace CoreDemo
             services.AddTransient<INewsletterDal, EfNewsletterRepository>();
             services.AddTransient<IAboutDal, EFAboutRepository>();
             services.AddTransient<IContactDal, EFContactRepository>();
+            services.AddTransient<INotificationDal, EFNotificationRepository>();
+            services.AddTransient<IMessageDal, EFMessageRepository>();
 
 
         }
