@@ -60,6 +60,7 @@ namespace CoreDemo
             services.AddTransient<IContactService, ContactManager>();
             services.AddTransient<INotificationService, NotificationManager>();
             services.AddTransient<IMessageService, MessageManager>();
+            services.AddTransient<IMessage2Service, Message2Manager>();
 
             services.AddTransient<IBlogDal, EFBlogRepository>();
             services.AddTransient<ICategoryDal, EFCategoryRepository>();
@@ -70,6 +71,7 @@ namespace CoreDemo
             services.AddTransient<IContactDal, EFContactRepository>();
             services.AddTransient<INotificationDal, EFNotificationRepository>();
             services.AddTransient<IMessageDal, EFMessageRepository>();
+            services.AddTransient<IMessage2Dal, EFMessage2Repository>();
 
 
         }

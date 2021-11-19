@@ -9,17 +9,17 @@ namespace CoreDemo.ViewComponents.Writer
 {
     public class WriterMessageNotification : ViewComponent
     {
-        private IMessageService _messageService;
+        private IMessage2Service _message2Service;
 
-        public WriterMessageNotification(IMessageService messageService)
+        public WriterMessageNotification(IMessage2Service message2Service)
         {
-            _messageService = messageService;
+            _message2Service = message2Service;
         }
 
         public IViewComponentResult Invoke()
         {
-            string p = "murat@mail.com";
-            var values = _messageService.GetInboxListByWriter(p);
+            int id = 2;
+            var values = _message2Service.GetInboxListByWriter(id);
             return View(values);
         }
     }
