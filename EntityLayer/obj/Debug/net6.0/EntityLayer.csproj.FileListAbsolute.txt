@@ -9,4 +9,3 @@ C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Debug\net6.0\EntityLa
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
-C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache

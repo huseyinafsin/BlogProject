@@ -52,5 +52,10 @@ namespace BusinessLayer.Concrete
         {
             return _writerDal.GetListAll(x => x.WriterID == id);
         }
+
+        public Writer GetWriterByMail(string mail)
+        {
+           return _writerDal.GetWriterByMail(mail);
+        }
     }
 }

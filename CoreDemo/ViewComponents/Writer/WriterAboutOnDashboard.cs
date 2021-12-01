@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreDemo.ViewComponents.Writer
@@ -20,8 +21,9 @@ namespace CoreDemo.ViewComponents.Writer
 
         public IViewComponentResult Invoke()
         {
-            var values = _writerService.GetWriterById(1);
-            return View(values);
+            var userMail = User.Identity.Name;
+            var user = _writerService.GetWriterByMail(userMail);
+            return View(user);
         }
     }
 }

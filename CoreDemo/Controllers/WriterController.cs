@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.IO;
+using System.Linq;
+using DataAccessLayer.Concrete;
 
 namespace CoreDemo.Controllers
 {
-
+    [Authorize]
     public class WriterController : Controller
     {
         readonly IWriterService _writerService;
@@ -20,10 +22,13 @@ namespace CoreDemo.Controllers
             _writerService = writerService;
         }
 
-        [AllowAnonymous]
         public IActionResult Index()
         {
-            return View();
+            var userMail = User.Identity.Name;
+
+            var user = _writerService.GetWriterByMail(userMail).WriterID;
+             
+            return View(user);
         }
 
         public IActionResult WriterProfile()
@@ -54,17 +59,16 @@ namespace CoreDemo.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
         public IActionResult WriterEditProfile()
         {
-            var writervalues = _writerService.GetById(1);
+            var userMail = User.Identity.Name;
+            var user = _writerService.GetWriterByMail(userMail);
 
-            return View(writervalues);
+            return View(user);
         }
 
 
         [HttpPost]
-        [AllowAnonymous]
         public IActionResult WriterEditProfile(Writer p)
         {
             WriterValidator wl = new WriterValidator();

@@ -14,16 +14,17 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CoreDemo.Controllers
 {
-    [AllowAnonymous]
     public class BlogController : Controller
     {
         private IBlogService _blogService;
         private ICategoryService _categoryService;
+        private IWriterService _writerService;
 
-        public BlogController(IBlogService blogService, ICategoryService categoryService)
+        public BlogController(IBlogService blogService, ICategoryService categoryService, IWriterService writerService)
         {
             _blogService = blogService;
             _categoryService = categoryService;
+            _writerService = writerService;
         }
 
         public IActionResult Index()
@@ -44,10 +45,12 @@ namespace CoreDemo.Controllers
             return View(value);
         }   
         
-        public IActionResult BlogListByWriter(int id)
+        public IActionResult BlogListByWriter()
         {
-            var values = _blogService.GetBlogListByWriter(id);
-            return View(values);
+            var userMail = User.Identity.Name;
+            var user = _writerService.GetWriterByMail(userMail);
+            var blogs = _blogService.GetBlogListByWriter(user.WriterID);
+            return View(blogs);
         }
 
         [HttpGet]
@@ -67,12 +70,15 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult BlogAdd(Blog p)
         {
+            var userMail = User.Identity.Name;
+            var user = _writerService.GetWriterByMail(userMail);
+
             BlogValidator bv = new BlogValidator();
             ValidationResult results = bv.Validate(p);
             if (results.IsValid)
             {
                 p.BlogStatus = true;
-                p.WriterID = 1;
+                p.WriterID = user.WriterID;
                 p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
                 _blogService.TAdd(p);
                 return RedirectToAction("BlogListByWriter", "Blog");
@@ -116,7 +122,11 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-            p.BlogID = 1;
+            var userMail = User.Identity.Name;
+            var user = _writerService.GetWriterByMail(userMail);
+
+
+            p.WriterID = user.WriterID;
             p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             p.BlogStatus = true;
             _blogService.TUpdate(p);
