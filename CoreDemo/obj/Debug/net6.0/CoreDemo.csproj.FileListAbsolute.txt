@@ -276,3 +276,6 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\runtimes\wi
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

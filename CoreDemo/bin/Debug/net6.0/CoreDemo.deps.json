@@ -11,48 +11,50 @@
           "BusinessLayer": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
-          "FluentValidation": "10.3.4",
-          "FluentValidation.AspNetCore": "10.3.4",
+          "FluentValidation": "10.3.5",
+          "FluentValidation.AspNetCore": "10.3.5",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.0",
+          "X.PagedList": "8.1.0",
+          "X.PagedList.Mvc.Core": "8.1.0"
         },
         "runtime": {
           "CoreDemo.dll": {}
         }
       },
-      "FluentValidation/10.3.4": {
+      "FluentValidation/10.3.5": {
         "runtime": {
-          "lib/net5.0/FluentValidation.dll": {
+          "lib/net6.0/FluentValidation.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.4.0"
+            "fileVersion": "10.3.5.0"
           }
         }
       },
-      "FluentValidation.AspNetCore/10.3.4": {
+      "FluentValidation.AspNetCore/10.3.5": {
         "dependencies": {
-          "FluentValidation": "10.3.4",
-          "FluentValidation.DependencyInjectionExtensions": "10.3.4"
+          "FluentValidation": "10.3.5",
+          "FluentValidation.DependencyInjectionExtensions": "10.3.5"
         },
         "runtime": {
-          "lib/net5.0/FluentValidation.AspNetCore.dll": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.4.0"
+            "fileVersion": "10.3.5.0"
           }
         }
       },
-      "FluentValidation.DependencyInjectionExtensions/10.3.4": {
+      "FluentValidation.DependencyInjectionExtensions/10.3.5": {
         "dependencies": {
-          "FluentValidation": "10.3.4",
+          "FluentValidation": "10.3.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.4.0"
+            "fileVersion": "10.3.5.0"
           }
         }
       },
@@ -61,6 +63,14 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.1.0.0",
+            "fileVersion": "2021.1.0.0"
           }
         }
       },
@@ -2463,12 +2473,34 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "X.PagedList/8.1.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/X.PagedList.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "X.PagedList.Mvc.Core/8.1.0": {
+        "dependencies": {
+          "X.PagedList": "8.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
       "BusinessLayer/1.0.0": {
         "dependencies": {
           "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
-          "FluentValidation": "10.3.4",
-          "FluentValidation.AspNetCore": "10.3.4"
+          "FluentValidation": "10.3.5",
+          "FluentValidation.AspNetCore": "10.3.5"
         },
         "runtime": {
           "BusinessLayer.dll": {}
@@ -2497,26 +2529,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/10.3.4": {
+    "FluentValidation/10.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
-      "path": "fluentvalidation/10.3.4",
-      "hashPath": "fluentvalidation.10.3.4.nupkg.sha512"
+      "sha512": "sha512-Mt2CnRqNA5+vXVNFY05yLuOG3OLYR7Q/ZcP/rcJZPNPbg95foVUruyQEmKl1GeXVnT2+u6rjGU2ZCdgF//QU2A==",
+      "path": "fluentvalidation/10.3.5",
+      "hashPath": "fluentvalidation.10.3.5.nupkg.sha512"
     },
-    "FluentValidation.AspNetCore/10.3.4": {
+    "FluentValidation.AspNetCore/10.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YxJ6YH8Oh/DIyHHbjLdQkITGpksihDbznqEbKJy+uPfphdWwtlzaVSx1XyLotSj/bkPXOdLL8w5FPh1TA0Acpw==",
-      "path": "fluentvalidation.aspnetcore/10.3.4",
-      "hashPath": "fluentvalidation.aspnetcore.10.3.4.nupkg.sha512"
+      "sha512": "sha512-fHPayS6k2GbvblzFJjiHNlJT8iQhGkGbSX6Q6JsH6Od2uFDCRaZIj/qSUkCwlCE/cHldmiGbk30LrJyKav9HPg==",
+      "path": "fluentvalidation.aspnetcore/10.3.5",
+      "hashPath": "fluentvalidation.aspnetcore.10.3.5.nupkg.sha512"
     },
-    "FluentValidation.DependencyInjectionExtensions/10.3.4": {
+    "FluentValidation.DependencyInjectionExtensions/10.3.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LS0opGF4r/upI92Y+bToBzFqHYrfuHDWz9z9DN2hUn+/tmt9lN8n0bevyswabdKlTwL6s8vMhVQxHXM8wjOAbQ==",
-      "path": "fluentvalidation.dependencyinjectionextensions/10.3.4",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.4.nupkg.sha512"
+      "sha512": "sha512-zGaFLXmf4c+kKqQpT0Ec1T97kbJMx9o25+0l6p/TYFQ99bHSLPmgpd8EjU6s7cXv9X/215mIlrazMkzvbCZFWg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.3.5",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.5.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -2524,6 +2556,13 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "path": "jetbrains.annotations/2021.1.0",
+      "hashPath": "jetbrains.annotations.2021.1.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -3896,6 +3935,20 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "X.PagedList/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xBZNtE+WU6FEKEapLvIdTFn4h3Ue03dsBE1LfnhzsLFIrop5bX6f7UuXnsenG/QK1OPHYknkC0a0vPBAMo0bXQ==",
+      "path": "x.pagedlist/8.1.0",
+      "hashPath": "x.pagedlist.8.1.0.nupkg.sha512"
+    },
+    "X.PagedList.Mvc.Core/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nqz9rSjU/St77F25GV8TogDfkVsbErC0o6o8hJtkkXrAilXHjsEALRMn8eVhgAFJ3XFWvvaHHSiDN3SnTGWSEA==",
+      "path": "x.pagedlist.mvc.core/8.1.0",
+      "hashPath": "x.pagedlist.mvc.core.8.1.0.nupkg.sha512"
     },
     "BusinessLayer/1.0.0": {
       "type": "project",
