@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
     <PackageReference Include="FluentValidation" Version="10.3.5" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
@@ -31,7 +32,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Pages\" />
     <Folder Include="Pages\Components\NotificationList\" />
     <Folder Include="Pages\Notification\" />
     <Folder Include="wwwroot\WriterImageFiles\" />

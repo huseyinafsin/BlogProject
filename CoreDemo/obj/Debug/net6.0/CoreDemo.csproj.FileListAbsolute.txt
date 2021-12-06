@@ -279,3 +279,7 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.E
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\JetBrains.Annotations.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\X.PagedList.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\System.IO.Packaging.dll

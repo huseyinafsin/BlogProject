@@ -50,7 +50,7 @@ namespace BusinessLayer.Concrete
 
         public List<Blog> GetList()
         {
-            throw new NotImplementedException();
+            return _blogDal.GetListAll();
         }
 
         public void TAdd(Blog t)
