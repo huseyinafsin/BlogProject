@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Pages\" />
+    <Folder Include="Areas\Admin\Pages\Components\" />
     <Folder Include="Pages\Components\NotificationList\" />
     <Folder Include="Pages\Notification\" />
     <Folder Include="wwwroot\WriterImageFiles\" />
@@ -1612,6 +1612,19 @@
     <None Include="wwwroot\inspinia\video.html" />
     <None Include="wwwroot\inspinia\vote_list.html" />
     <None Include="wwwroot\inspinia\widgets.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Shared\Components\Statistic2\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\Components\Statistic4\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\Components\Statistic2\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Admin\Views\Shared\Components\Statistic4\Default.cshtml" />
   </ItemGroup>
 
 </Project>
