@@ -32,6 +32,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Views\Chart\" />
     <Folder Include="Areas\Admin\Pages\Components\" />
     <Folder Include="Pages\Components\NotificationList\" />
     <Folder Include="Pages\Notification\" />
