@@ -30,7 +30,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "6ab1607b-813d-4e1e-b727-f3d090352c3b": {
+      "ProjectGuid": "6ab1607b-813d-4e1e-b727-f3d090352c3b",
+      "DisplayName": "BlogApiDemo",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
