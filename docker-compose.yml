@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coredemo:
+    image: ${DOCKER_REGISTRY-}coredemo
+    build:
+      context: .
+      dockerfile: CoreDemo/Dockerfile

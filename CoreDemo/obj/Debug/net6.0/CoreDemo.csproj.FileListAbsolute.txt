@@ -141,10 +141,6 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.pd
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.genruntimeconfig.cache
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\MessagePack.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\MessagePack.Annotations.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Build.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
@@ -166,8 +162,6 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\NuGet.Packa
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\NuGet.Versioning.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\System.Resources.Extensions.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
@@ -283,3 +277,14 @@ C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\ClosedXML.d
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\ExcelNumberFormat.dll
 C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.deps.json
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.runtimeconfig.json
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.runtimeconfig.dev.json
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.exe
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\BlogApiDemo.pdb

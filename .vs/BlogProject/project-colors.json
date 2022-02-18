@@ -35,7 +35,12 @@
       "ProjectGuid": "6ab1607b-813d-4e1e-b727-f3d090352c3b",
       "DisplayName": "BlogApiDemo",
       "ColorIndex": 5
+    },
+    "5bfcf125-d971-41bc-aa78-1e4c0a6a3a6c": {
+      "ProjectGuid": "5bfcf125-d971-41bc-aa78-1e4c0a6a3a6c",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

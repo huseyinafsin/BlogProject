@@ -9,7 +9,7 @@ namespace BlogApiDemo.Controllers
     [ApiController]
     public class DefaultController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("EmployeeList")]
         public IActionResult EmployeeList()
         {
             using var c = new Context();
@@ -18,7 +18,7 @@ namespace BlogApiDemo.Controllers
             return Ok(values);
         }
 
-        [HttpPost]
+        [HttpPost("EmployeeAdd")]
         public IActionResult EmployeeAdd(Employee employee)
         {
             using var c = new Context();
@@ -27,7 +27,7 @@ namespace BlogApiDemo.Controllers
             return Ok();
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("EmployeeGet")]
         public IActionResult EmployeeGet(int id)
         {
             using var c = new Context();
@@ -61,7 +61,7 @@ namespace BlogApiDemo.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("EmployeeUpdate")]
         public IActionResult EmployeeUpdate(Employee employee)
         {
             using var c = new Context();
