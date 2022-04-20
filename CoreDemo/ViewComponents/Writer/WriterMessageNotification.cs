@@ -10,15 +10,18 @@ namespace CoreDemo.ViewComponents.Writer
     public class WriterMessageNotification : ViewComponent
     {
         private IMessage2Service _message2Service;
+        private IWriterService _writerService;
 
-        public WriterMessageNotification(IMessage2Service message2Service)
+        public WriterMessageNotification(IMessage2Service message2Service, IWriterService writerService)
         {
             _message2Service = message2Service;
+            _writerService = writerService;
         }
 
         public IViewComponentResult Invoke()
         {
-            int id = 2;
+            var writerMail = HttpContext.User.Identity.Name;
+            int id = _writerService.GetWriterByMail(writerMail).WriterID;
             var values = _message2Service.GetInboxListByWriter(id);
             return View(values);
         }

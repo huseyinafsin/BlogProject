@@ -10,10 +10,9 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using DataAccessLayer.Concrete;
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 
@@ -50,6 +49,15 @@ namespace CoreDemo
      
             services.AddSession();
             services.AddControllersWithViews();
+
+            services.AddDbContext<DataAccessLayer.Concrete.Context>();
+            services.AddIdentity<AppUser, AppRole>(x =>
+            {
+                x.Password.RequireUppercase = false;
+                x.Password.RequireNonAlphanumeric=false;
+                x.Password.RequireDigit = false;
+                
+            }).AddEntityFrameworkStores<DataAccessLayer.Concrete.Context>();
 
             services.AddTransient<IBlogService, BlogManager>();
             services.AddTransient<ICategoryService, CategoryManager>();
@@ -96,20 +104,17 @@ namespace CoreDemo
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
-
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                   name: "areas",
-                   pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-               ); 
+                    name: "admin",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-               
+                    pattern: "{controller=Blog}/{action=Index}/{id?}");
             });
 
         }

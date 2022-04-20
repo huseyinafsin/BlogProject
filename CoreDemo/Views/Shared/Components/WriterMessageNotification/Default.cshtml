@@ -5,7 +5,7 @@
     <div class="dropdown-divider"></div>
 	@foreach (var item in Model)
 	{
-	<a class="dropdown-item preview-item">
+	<a class="dropdown-item preview-item" href="/Message/MessageDetails/"+@item.MessageID>
 		<div class="preview-thumbnail">
 			<img src="@item.SenderUser.WriterImage" alt="image" class="profile-pic">
 		</div>
@@ -18,5 +18,5 @@
 
 
 	<div class="dropdown-divider"></div>
-	<h6 class="p-3 mb-0 text-center">3 Yeni Mesaj</h6>
+    <a href="/Message/Inbox"><h6 class="p-3 mb-0 text-center">@Model.Count Yeni Mesaj</h6></a>	
 </div>

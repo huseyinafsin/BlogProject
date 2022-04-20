@@ -13,7 +13,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CoreDemo.Controllers
-{
+{   
+
+    [AllowAnonymous]
     public class BlogController : Controller
     {
         private IBlogService _blogService;

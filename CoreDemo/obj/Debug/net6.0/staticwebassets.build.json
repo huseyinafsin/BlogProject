@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "43Q75vwjQUOImn9BrVV2lf1hm4bvvjm1XoKi5dEeVTc=",
+  "Hash": "cDUBl84m3B16xAaVsmXbXe9WfV8FgQCbqH0lzcOvKAk=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
-      "Version": 1,
-      "Source": "BlogApiDemo",
-      "GetPublishAssetsTargets": "",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "CoreDemo\\wwwroot",
@@ -794,6 +782,23 @@
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\js\\easing.js"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\js\\jquery-2.2.3.min.js",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "CoreBlogTema/js/jquery-2.2.3.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\js\\jquery-2.2.3.min.js"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\js\\jquery.desoslide.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -826,23 +831,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\js\\jquery.flexisel.js"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\js\\jquery-2.2.3.min.js",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "CoreBlogTema/js/jquery-2.2.3.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\js\\jquery-2.2.3.min.js"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\js\\modernizr.custom.min.js",
@@ -981,23 +969,6 @@
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\weberror\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\weberror\\fonts\\FontAwesome.otf",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "CoreBlogTema/weberror/fonts/FontAwesome.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\weberror\\fonts\\FontAwesome.otf"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\weberror\\fonts\\fontawesome-webfont.eot",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -1081,6 +1052,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\weberror\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\weberror\\fonts\\FontAwesome.otf",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "CoreBlogTema/weberror/fonts/FontAwesome.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\weberror\\fonts\\FontAwesome.otf"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\CoreBlogTema\\weberror\\images\\banner1.jpg",
@@ -1712,6 +1700,23 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\code_editor.html"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\contacts_2.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/contacts_2.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\contacts_2.html"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\contacts.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -1729,12 +1734,12 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\contacts.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\contacts_2.html",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css_animation.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/contacts_2.html",
+      "RelativePath": "inspinia/css_animation.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1743,7 +1748,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\contacts_2.html"
+      "OriginalItemSpec": "wwwroot\\inspinia\\css_animation.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\animate.css",
@@ -1967,23 +1972,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\patterns\\congruent_pentagon.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\patterns\\header-profile.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/patterns/header-profile.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\patterns\\header-profile.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\patterns\\header-profile-skin-1.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2033,6 +2021,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\patterns\\header-profile-skin-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\patterns\\header-profile.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/patterns/header-profile.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\patterns\\header-profile.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\patterns\\otis_redding.png",
@@ -2103,40 +2108,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\awesome-bootstrap-checkbox\\awesome-bootstrap-checkbox.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/blueimp/css/blueimp-gallery.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.css"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.min.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/blueimp/css/blueimp-gallery.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.min.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery-indicator.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2169,6 +2140,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery-video.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/blueimp/css/blueimp-gallery.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.min.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/blueimp/css/blueimp-gallery.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\blueimp-gallery.min.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\blueimp\\css\\demo.css",
@@ -2375,23 +2380,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\bootstrap-rtl\\bootstrap-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\bootstrapSocial\\bootstrap-social.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/bootstrapSocial/bootstrap-social.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\bootstrapSocial\\bootstrap-social.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2407,6 +2395,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\bootstrapSocial\\bootstrap-social.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/bootstrapSocial/bootstrap-social.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\bootstrapSocial\\bootstrap-social.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\bootstrapTour\\bootstrap-tour.min.css",
@@ -2477,23 +2482,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\chosen\\bootstrap-chosen.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\chosen\\chosen.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/chosen/chosen.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\chosen\\chosen.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\chosen\\chosen-sprite.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2526,6 +2514,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\chosen\\chosen-sprite@2x.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\chosen\\chosen.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/chosen/chosen.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\chosen\\chosen.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\clockpicker\\clockpicker.css",
@@ -2885,23 +2890,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\iCheck\\green@2x.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/images/bootstrap-colorpicker/alpha.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha-horizontal.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2919,12 +2907,12 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha-horizontal.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue.png",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/images/bootstrap-colorpicker/hue.png",
+      "RelativePath": "inspinia/css/plugins/images/bootstrap-colorpicker/alpha.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2933,7 +2921,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue.png"
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\alpha.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue-horizontal.png",
@@ -2953,6 +2941,23 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue-horizontal.png"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/images/bootstrap-colorpicker/hue.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\hue.png"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\saturation.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2968,23 +2973,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\bootstrap-colorpicker\\saturation.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\sort.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/images/sort.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\sort.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\sort_asc.png",
@@ -3021,12 +3009,12 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\sort_desc.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\spritemap.png",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\sort.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/images/spritemap.png",
+      "RelativePath": "inspinia/css/plugins/images/sort.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3035,24 +3023,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\spritemap.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\spritemap@2x.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/images/spritemap@2x.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\spritemap@2x.png"
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\sort.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\sprite-skin-flat.png",
@@ -3121,6 +3092,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\sprite-skin-simple.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\spritemap.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/images/spritemap.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\spritemap.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\images\\spritemap@2x.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/images/spritemap@2x.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\images\\spritemap@2x.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\ionRangeSlider\\ion.rangeSlider.css",
@@ -3463,23 +3468,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\jQueryUI\\images\\ui-icons_cd0a0a_256x240.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/jQueryUI/jquery-ui.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui-1.10.4.custom.min.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -3495,6 +3483,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui-1.10.4.custom.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/jQueryUI/jquery-ui.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\jQueryUI\\jquery-ui.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\jsTree\\32px.png",
@@ -3599,23 +3604,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\jsTree\\throbber.gif"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\ladda\\ladda.min.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/ladda/ladda.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\ladda\\ladda.min.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\ladda\\ladda-themeless.min.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -3631,6 +3619,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\ladda\\ladda-themeless.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\ladda\\ladda.min.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/ladda/ladda.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\ladda\\ladda.min.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\morris\\morris-0.4.3.min.css",
@@ -3769,23 +3774,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\slick\\fonts\\slick.woff"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\slick\\slick.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css/plugins/slick/slick.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\slick\\slick.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\slick\\slick-theme.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -3801,6 +3789,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\slick\\slick-theme.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\slick\\slick.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/css/plugins/slick/slick.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\css\\plugins\\slick\\slick.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css\\plugins\\social-buttons\\social-buttons.css",
@@ -4007,23 +4012,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\css_animation.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/css_animation.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\css_animation.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\dashboard_2.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -4058,23 +4046,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\dashboard_3.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\dashboard_4.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/dashboard_4.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\dashboard_4.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\dashboard_4_1.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -4090,6 +4061,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\dashboard_4_1.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\dashboard_4.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/dashboard_4.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\dashboard_4.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\dashboard_5.html",
@@ -4177,23 +4165,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\ecommerce_payments.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\ecommerce_product.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/ecommerce_product.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\ecommerce_product.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\ecommerce_product_detail.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -4226,6 +4197,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\ecommerce_product_list.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\ecommerce_product.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/ecommerce_product.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\ecommerce_product.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\ecommerce_products_grid.html",
@@ -4551,23 +4539,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fa-solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\fontawesome.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/font-awesome/css/fontawesome.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fontawesome.css"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\font-awesome.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -4583,23 +4554,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\font-awesome.css"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\fontawesome.min.css",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/font-awesome/css/fontawesome.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fontawesome.min.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\font-awesome.min.css",
@@ -4653,12 +4607,12 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fontawesome-all.min.css"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\fontawesome.css",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/font-awesome/fonts/FontAwesome.otf",
+      "RelativePath": "inspinia/font-awesome/css/fontawesome.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4667,7 +4621,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\fonts\\FontAwesome.otf"
+      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\css\\fontawesome.min.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/font-awesome/css/fontawesome.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\css\\fontawesome.min.css"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\fonts\\fontawesome-webfont.eot",
@@ -4753,6 +4724,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\fonts\\FontAwesome.otf",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/font-awesome/fonts/FontAwesome.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\less\\_animated.less",
@@ -5078,23 +5066,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\less\\fontawesome.less",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/font-awesome/less/fontawesome.less",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\less\\fontawesome.less"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\less\\font-awesome.less",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -5110,6 +5081,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\less\\fontawesome.less",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/font-awesome/less/fontawesome.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\less\\fontawesome.less"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\less\\icons.less",
@@ -5537,23 +5525,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\scss\\fa-solid.scss"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\scss\\fontawesome.scss",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/font-awesome/scss/fontawesome.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\scss\\fontawesome.scss"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\scss\\font-awesome.scss",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -5569,6 +5540,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\scss\\fontawesome.scss",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/font-awesome/scss/fontawesome.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\font-awesome\\scss\\fontawesome.scss"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\font-awesome\\webfonts\\fa-brands-400.eot",
@@ -8189,23 +8177,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Guernsey.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Guinea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/16/Guinea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Guinea.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Guinea-Bissau.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -8221,6 +8192,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Guinea-Bissau.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Guinea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/16/Guinea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Guinea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Guyana.png",
@@ -9277,23 +9265,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Nepal.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Netherlands.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/16/Netherlands.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Netherlands.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Netherlands-Antilles.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -9309,6 +9280,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Netherlands-Antilles.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Netherlands.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/16/Netherlands.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Netherlands.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\New-Caledonia.png",
@@ -9430,6 +9418,23 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Norfolk-Island.png"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\North-Korea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/16/North-Korea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\North-Korea.png"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Northern-Cyprus.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -9462,23 +9467,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\Northern-Mariana-Islands.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\North-Korea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/16/North-Korea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\16\\North-Korea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\16\\Norway.png",
@@ -12609,23 +12597,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Guernsey.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Guinea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/32/Guinea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Guinea.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Guinea-Bissau.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -12641,6 +12612,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Guinea-Bissau.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Guinea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/32/Guinea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Guinea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Guyana.png",
@@ -13697,23 +13685,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Nepal.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Netherlands.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/32/Netherlands.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Netherlands.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Netherlands-Antilles.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -13729,6 +13700,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Netherlands-Antilles.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Netherlands.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/32/Netherlands.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Netherlands.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\New-Caledonia.png",
@@ -13850,6 +13838,23 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Norfolk-Island.png"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\North-Korea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/32/North-Korea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\North-Korea.png"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Northern-Cyprus.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -13882,23 +13887,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\Northern-Mariana-Islands.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\North-Korea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/32/North-Korea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\32\\North-Korea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\32\\Norway.png",
@@ -17029,23 +17017,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Guernsey.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Guinea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/64/Guinea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Guinea.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Guinea-Bissau.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -17061,6 +17032,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Guinea-Bissau.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Guinea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/64/Guinea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Guinea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Guyana.png",
@@ -18117,23 +18105,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Nepal.png"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Netherlands.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/64/Netherlands.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Netherlands.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Netherlands-Antilles.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -18149,6 +18120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Netherlands-Antilles.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Netherlands.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/64/Netherlands.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Netherlands.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\New-Caledonia.png",
@@ -18270,6 +18258,23 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Norfolk-Island.png"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\North-Korea.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/flags/64/North-Korea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\North-Korea.png"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Northern-Cyprus.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -18302,23 +18307,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\Northern-Mariana-Islands.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\North-Korea.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/flags/64/North-Korea.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\flags\\64\\North-Korea.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\flags\\64\\Norway.png",
@@ -20820,23 +20808,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\p8.jpg"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\profile.jpg",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/img/profile.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\img\\profile.jpg"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\profile_big.jpg",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -20869,6 +20840,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\img\\profile_small.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\profile.jpg",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/img/profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\img\\profile.jpg"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\img\\rails_logo.png",
@@ -20939,23 +20927,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\index.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\invoice.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/invoice.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\invoice.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\invoice_print.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -20971,6 +20942,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\invoice_print.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\invoice.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/invoice.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\invoice.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\issue_tracker.html",
@@ -21789,23 +21777,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\index.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/js/plugins/codemirror/mode/css/less.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less_test.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -21823,12 +21794,12 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less_test.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss.html",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/js/plugins/codemirror/mode/css/scss.html",
+      "RelativePath": "inspinia/js/plugins/codemirror/mode/css/less.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -21837,7 +21808,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss.html"
+      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\less.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss_test.js",
@@ -21855,6 +21826,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss_test.js"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/js/plugins/codemirror/mode/css/scss.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\scss.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\codemirror\\mode\\css\\test.js",
@@ -25291,23 +25279,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\fullcalendar\\moment.min.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/js/plugins/gritter/images/gritter.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter-light.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -25340,6 +25311,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter-long.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/js/plugins/gritter/images/gritter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\gritter\\images\\gritter.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\gritter\\images\\ie-spacer.gif",
@@ -26005,23 +25993,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pl.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt.js",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/js/plugins/jqGrid/i18n/grid.locale-pt.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt.js"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt-br.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -26037,6 +26008,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt-br.js"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt.js",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/js/plugins/jqGrid/i18n/grid.locale-pt.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-pt.js"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-ro.js",
@@ -26090,23 +26078,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sk.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr.js",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/js/plugins/jqGrid/i18n/grid.locale-sr.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr.js"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr-latin.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -26122,6 +26093,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr-latin.js"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr.js",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/js/plugins/jqGrid/i18n/grid.locale-sr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sr.js"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\js\\plugins\\jqGrid\\i18n\\grid.locale-sv.js",
@@ -27365,23 +27353,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\lockscreen.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\login.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/login.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\login.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\login_two_columns.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -27397,6 +27368,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\login_two_columns.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\login.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\login.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\mail_compose.html",
@@ -27603,23 +27591,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\password_meter.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\pdf\\example.pdf",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/pdf/example.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\pdf\\example.pdf"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\pdf_viewer.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -27635,6 +27606,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\pdf_viewer.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\pdf\\example.pdf",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/pdf/example.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\pdf\\example.pdf"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\pin_board.html",
@@ -27654,23 +27642,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\pin_board.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\profile.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/profile.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\profile.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\profile_2.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -27686,6 +27657,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\profile_2.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\profile.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/profile.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\profile.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\project_detail.html",
@@ -27841,23 +27829,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\social_feed.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\spinners.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/spinners.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\spinners.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\spinners_usage.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -27873,6 +27844,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\spinners_usage.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\spinners.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/spinners.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\spinners.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\sweetalert.html",
@@ -27943,23 +27931,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\table_foo_table.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\tabs.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/tabs.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\tabs.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\tabs_panels.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -27975,6 +27946,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\tabs_panels.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\tabs.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/tabs.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\tabs.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\teams_board.html",
@@ -28011,23 +27999,6 @@
       "OriginalItemSpec": "wwwroot\\inspinia\\text_spinners.html"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\timeline.html",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "inspinia/timeline.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\inspinia\\timeline.html"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\timeline_2.html",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -28043,6 +28014,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia\\timeline_2.html"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\timeline.html",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "inspinia/timeline.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia\\timeline.html"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\inspinia\\tinycon.html",
@@ -28232,12 +28220,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28246,15 +28234,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28263,15 +28251,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28280,24 +28268,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -28385,12 +28356,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28399,15 +28370,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28416,15 +28387,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
       "BasePath": "_content/CoreDemo",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -28433,7 +28404,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\.DS_Store",
@@ -28876,6 +28864,74 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-1.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/faces-clipart/pic-1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-2.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/faces-clipart/pic-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-3.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/faces-clipart/pic-3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-4.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/faces-clipart/pic-4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-4.png"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces\\face1.jpg",
@@ -29337,74 +29393,6 @@
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces\\face9.jpg"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-1.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/assets/images/faces-clipart/pic-1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-1.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-2.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/assets/images/faces-clipart/pic-2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-2.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-3.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/assets/images/faces-clipart/pic-3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-3.png"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces-clipart\\pic-4.png",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/assets/images/faces-clipart/pic-4.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-4.png"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\favicon.ico",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -29439,6 +29427,23 @@
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\logo-mini.svg",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/logo-mini.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo-mini.svg"
+    },
+    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\logo.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -29471,23 +29476,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo.svg"
-    },
-    {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\logo-mini.svg",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/assets/images/logo-mini.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo-mini.svg"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\assets\\images\\norlogologo1.svg",
@@ -30663,23 +30651,6 @@
       "OriginalItemSpec": "wwwroot\\writer\\CHANGELOG.md"
     },
     {
-      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\gulpfile.js",
-      "SourceId": "CoreDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
-      "BasePath": "_content/CoreDemo",
-      "RelativePath": "writer/gulpfile.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\writer\\gulpfile.js"
-    },
-    {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\gulp-tasks\\inject.js",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -30729,6 +30700,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\gulp-tasks\\vendors.js"
+    },
+    {
+      "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\gulpfile.js",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/gulpfile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\gulpfile.js"
     },
     {
       "Identity": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\writer\\index.html",

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlogApiDemo.DataAccessLayer
 {
@@ -6,9 +7,15 @@ namespace BlogApiDemo.DataAccessLayer
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-KRNCUB4\\SQLEXPRESS;Database=CoreBlogApiDb; Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-KRNCUB4\\SQLEXPRESS;Database=CoreBlogDb; Integrated Security=True;");
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+           
+        }
+
+        public DbSet<Employee> Employees;
     }
 }
+

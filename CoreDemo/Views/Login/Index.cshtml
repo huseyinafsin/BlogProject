@@ -1,4 +1,4 @@
-﻿@model  EntityLayer.Concrete.Writer
+﻿@model  UserSingInViewModel
 @{
 	ViewData["Title"] = "Index";
 	Layout = "~/Views/Shared/UserLayout.cshtml";
@@ -10,12 +10,12 @@
 			<div class="login p-5 bg-light mx-auto mw-100">
 				<form asp-action="Index">
 					<div class="form-group">
-						<label for="exampleInputEmail1 mb-2">Email adresi</label>
-						<input type="email" class="form-control" asp-for="WriterMail" placeholder="" required="">
+						<label for="exampleInputEmail1 mb-2">Kullanıcı Adınız</label>
+						<input type="text" class="form-control" asp-for="Username" placeholder="" >
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1 mb-2">Şifre</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" asp-for="WriterPassword" placeholder="" required="">
+						<input type="password" class="form-control" id="exampleInputPassword1" asp-for="Password" placeholder="">
 					</div>
 					<div class="form-check mb-2">
 						<input type="checkbox" class="form-check-input"  id="exampleCheck1">
@@ -23,7 +23,7 @@
 					</div>
 					<button type="submit" class="btn btn-primary submit mb-4">Giriş Yap</button>
 					<p><a href="/Register/Index/"> Bir Hesabın Yok Mu?</a></p>
-				</form>
+				</form> 
 			</div>
 		</div>
 	</div>
