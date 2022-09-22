@@ -15,6 +15,8 @@ using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 
 namespace CoreDemo
 {
@@ -44,9 +46,13 @@ namespace CoreDemo
                     CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(x =>
                 {
-                    x.LoginPath = "/Login/Index";
+                    x.LoginPath = "/Account/Login";
                 });
-     
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+            });
+
             services.AddSession();
             services.AddControllersWithViews();
 
@@ -54,11 +60,10 @@ namespace CoreDemo
             services.AddIdentity<AppUser, AppRole>(x =>
             {
                 x.Password.RequireUppercase = false;
-                x.Password.RequireNonAlphanumeric=false;
+                x.Password.RequireNonAlphanumeric = false;
                 x.Password.RequireDigit = false;
-                
-            }).AddEntityFrameworkStores<DataAccessLayer.Concrete.Context>();
 
+            }).AddEntityFrameworkStores<DataAccessLayer.Concrete.Context>();
             services.AddTransient<IBlogService, BlogManager>();
             services.AddTransient<ICategoryService, CategoryManager>();
             services.AddTransient<ICommentService, CommentManager>();
@@ -90,7 +95,7 @@ namespace CoreDemo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                
+
             }
             else
             {
@@ -111,6 +116,10 @@ namespace CoreDemo
                 endpoints.MapControllerRoute(
                     name: "admin",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                   name: "blog",
+                   pattern: "{controller=Blog}/{action=BlogReadAll}/{blogUrlId?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",

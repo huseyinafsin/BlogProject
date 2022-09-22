@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {}
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {}
   },
   "projects": {
-    "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
         "projectName": "BlogApiDemo",
-        "projectPath": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
-        "outputPath": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\obj\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",

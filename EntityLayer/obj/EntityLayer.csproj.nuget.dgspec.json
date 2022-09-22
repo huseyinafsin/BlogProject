@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
-        "outputPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",

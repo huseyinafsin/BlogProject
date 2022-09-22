@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XlDNCA/QlUJGRDMdt4J9syt+Di0FNoRSxuOVdLn4lW8/NzbRaa7RkC6vRxLG/+jtZafL6VhtiI+F5W0RAmjmvg==",
+  "dgSpecHash": "wrah9a7gC0wDgERnujxoBTUUqBNY80RLJtKRgp+HmVqC6zNF5FK+XABCNxEFFGutc058aK25JpLPW6+dDUI+aw==",
   "success": true,
-  "projectFilePath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj",
+  "projectFilePath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\husey\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\husey\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

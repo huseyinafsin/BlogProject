@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQT5G31d/wGt9arq02iyNVYwWtCdWl58sjEfhFmmuvR6Wuu/pAptVLVzihNSvUxjeu1QEY3LqgJ9b58cYSEloA==",
+  "dgSpecHash": "SvIXQKZbddSnZiY8TVoV6ViQI2Uvh0iiNxza8n1GdLsgC9jSstCKhjgGxAak+eyKGuY61dsa3n2PwjJQlNmSBg==",
   "success": true,
-  "projectFilePath": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
+  "projectFilePath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\husey\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\husey\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

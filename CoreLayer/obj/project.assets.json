@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repos - Copy\\BlogProject\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "E:\\repos - Copy\\BlogProject\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
-      "outputPath": "E:\\repos - Copy\\BlogProject\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3,6 +3,7 @@ using BusinessLayer.ValidationRules;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,10 +16,13 @@ namespace CoreDemo.Controllers
     public class RegisterController : Controller
     {
         IWriterService _writerService;
+        private readonly UserManager<AppUser> _userManager;
 
-        public RegisterController(IWriterService writerService)
+
+        public RegisterController(IWriterService writerService, UserManager<AppUser> userManager)
         {
             _writerService = writerService;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -27,7 +31,7 @@ namespace CoreDemo.Controllers
         }  
         
         [HttpPost]
-        public IActionResult Index(Writer model)
+        public async Task<IActionResult> Index(Writer model)
         {
             WriterValidator wv = new WriterValidator();
             ValidationResult results = wv.Validate(model);
@@ -35,7 +39,23 @@ namespace CoreDemo.Controllers
             {
                 model.WriterAbout = "Deneme Test";
                 model.WriterStatus = true;
-                _writerService.TAdd(model);
+
+                var user = new AppUser()
+                {
+                    Email = model.WriterMail,
+                    UserName = model.WriterMail,
+                    NameSurname = model.WriterName,
+                };
+
+                var result = await _userManager.CreateAsync(user, model.WriterPassword);
+
+                if (result.Succeeded)
+                {
+                    
+                    _writerService.TAdd(model);
+                    RedirectToAction("Index", "Login");
+
+                }
             }
             else
             {
