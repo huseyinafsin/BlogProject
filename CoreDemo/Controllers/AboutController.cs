@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreDemo.Controllers
 {
+    [AllowAnonymous]
     public class AboutController : Controller
     {
         private IAboutService _aboutService;

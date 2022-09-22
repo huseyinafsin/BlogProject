@@ -1,38 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {}
+    "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+    "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\obj\\",
+        "projectPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -62,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,42 +72,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {
+    "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
+        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj",
         "projectName": "CoreDemo",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
-        "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreDemo\\obj\\",
+        "projectPath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -184,7 +185,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -196,36 +198,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\DataAccessLayer\\obj\\",
+        "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+              "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -275,7 +277,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -284,28 +287,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+    "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
+        "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -339,7 +342,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -348,7 +352,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

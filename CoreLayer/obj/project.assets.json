@@ -8,26 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pantheon\\.nuget\\packages\\": {}
+    "C:\\Users\\husey\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "E:\\repos - Copy\\BlogProject\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\CoreLayer.csproj",
-      "packagesPath": "C:\\Users\\pantheon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pantheon\\source\\repos\\BlogProject\\CoreLayer\\obj\\",
+      "projectPath": "E:\\repos - Copy\\BlogProject\\CoreLayer\\CoreLayer.csproj",
+      "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+      "outputPath": "E:\\repos - Copy\\BlogProject\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pantheon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

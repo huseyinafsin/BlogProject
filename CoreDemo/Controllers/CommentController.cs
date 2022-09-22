@@ -6,9 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreDemo.Controllers
 {
+    [AllowAnonymous]
     public class CommentController : Controller
     {
         ICommentService _commentService;

@@ -16,9 +16,12 @@
     <WebStackScaffolding_DependencyDialogWidth>650</WebStackScaffolding_DependencyDialogWidth>
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/AdminLayout.cshtml</WebStackScaffolding_LayoutPageFile>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\pantheon\source\repos\BlogProject\CoreDemo\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>E:\repos - Copy\BlogProject\CoreDemo\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
