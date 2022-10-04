@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
         "outputPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\obj\\",
+=======
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +42,19 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
                 "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
               "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+=======
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
               }
             }
           }
@@ -76,6 +98,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -84,6 +107,16 @@
         "projectPath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
         "outputPath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\obj\\",
+=======
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
+        "projectName": "CoreDemo",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,6 +133,7 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
                 "projectPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj"
               },
@@ -108,6 +142,16 @@
               },
               "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+=======
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
               }
             }
           }
@@ -202,6 +246,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -210,6 +255,16 @@
         "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
         "outputPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\obj\\",
+=======
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,8 +281,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+<<<<<<< HEAD
               "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+=======
+              "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
               }
             }
           }
@@ -291,6 +351,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -299,6 +360,16 @@
         "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
         "outputPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\obj\\",
+=======
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",

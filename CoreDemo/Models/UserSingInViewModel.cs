@@ -12,4 +12,13 @@ namespace CoreDemo.Models
 
         public string Password { get; set; }
     }
+    public class UserLoginInViewModel
+    {
+        [Required(ErrorMessage = "Lütfen kullnıcı adınızı girin")]
+        public string Username { get; set; }
+
+        [Required(ErrorMessage = "Lütfen şifrenizi girin")]
+
+        public string Password { get; set; }
+    }
 }

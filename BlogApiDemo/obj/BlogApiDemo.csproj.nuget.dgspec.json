@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
         "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
         "outputPath": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\obj\\",
+=======
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
+        "projectName": "BlogApiDemo",
+        "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\BlogApiDemo.csproj",
+        "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BlogApiDemo\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,6 +115,7 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
         }
       }
     },
@@ -327,6 +342,8 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+=======
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
         }
       }
     }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kHB8t/AMppwoKIYW9MMk+PaJG2xaHaZ3J/th/V6vTFhtEIZNrldtS6T3obz7vOWSQu90DwwYEftzkCmdExgn6A==",
   "success": true,
   "projectFilePath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+=======
+  "dgSpecHash": "pFPp/QDQLd1j3Rmp6mi6EjfcxaeW5p9IXzuK4WmKOsnVz2guWaz7cDTn796xCzHRnrXRPwHhKOJigbtuGQb0hg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
   "expectedPackageFiles": [
     "C:\\Users\\husey\\.nuget\\packages\\fluentvalidation\\10.3.5\\fluentvalidation.10.3.5.nupkg.sha512",
     "C:\\Users\\husey\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.5\\fluentvalidation.aspnetcore.10.3.5.nupkg.sha512",

@@ -22,3 +22,18 @@ E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.dll
 E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\refint\EntityLayer.dll
 E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.pdb
 E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\ref\EntityLayer.dll
+<<<<<<< HEAD
+=======
+C:\Users\husey\source\repos\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.deps.json
+C:\Users\husey\source\repos\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.dll
+C:\Users\husey\source\repos\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.pdb
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.dll
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\refint\EntityLayer.dll
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.pdb
+C:\Users\husey\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\ref\EntityLayer.dll
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4

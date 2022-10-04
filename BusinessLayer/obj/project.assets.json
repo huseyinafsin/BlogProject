@@ -2978,11 +2978,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
       "projectPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
       "outputPath": "E:\\repos - Copy\\BlogProject\\BusinessLayer\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+      "projectName": "BusinessLayer",
+      "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\BusinessLayer\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2999,11 +3007,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "E:\\repos - Copy\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
             },
             "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+=======
+            "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj"
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
             }
           }
         }

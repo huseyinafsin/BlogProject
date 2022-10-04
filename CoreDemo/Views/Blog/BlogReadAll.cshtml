@@ -46,8 +46,9 @@
                             <a href="#">@Model.BlogTitle</a>
                         </h3>
                         <p>
-                           @Model.BlogContent
-                        </p>
+                            @Html.Raw(Model.BlogContent)
+
+                       </p>
                         <a href="/Blog/Index"  class="btn btn-primary read-m">Blog Listesi</a>
                     </div>
                     
