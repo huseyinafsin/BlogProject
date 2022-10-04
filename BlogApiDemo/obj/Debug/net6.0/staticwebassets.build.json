@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "CkKWvT9BoSxLEYeZQpVgFN2660uptQUDnbVOw8U8KqY=",
+  "Source": "BlogApiDemo",
+  "BasePath": "_content/BlogApiDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlogApiDemo\\wwwroot",
+      "Source": "BlogApiDemo",
+      "ContentRoot": "E:\\repos - Copy\\BlogProject\\BlogApiDemo\\wwwroot\\",
+      "BasePath": "_content/BlogApiDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
