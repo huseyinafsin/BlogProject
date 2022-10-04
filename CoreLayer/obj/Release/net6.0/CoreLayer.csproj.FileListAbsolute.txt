@@ -22,6 +22,8 @@ E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.dll
 E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\refint\CoreLayer.dll
 E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.pdb
 E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\ref\CoreLayer.dll
+<<<<<<< HEAD
+=======
 C:\Users\husey\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.deps.json
 C:\Users\husey\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.dll
 C:\Users\husey\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.pdb
@@ -34,3 +36,4 @@ C:\Users\husey\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.d
 C:\Users\husey\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\refint\CoreLayer.dll
 C:\Users\husey\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.pdb
 C:\Users\husey\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\ref\CoreLayer.dll
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4

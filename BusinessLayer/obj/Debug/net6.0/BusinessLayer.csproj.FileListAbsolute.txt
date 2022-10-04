@@ -32,6 +32,8 @@ E:\repos - Copy\BlogProject\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
 E:\repos - Copy\BlogProject\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 E:\repos - Copy\BlogProject\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 E:\repos - Copy\BlogProject\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+<<<<<<< HEAD
+=======
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
@@ -49,3 +51,4 @@ C:\Users\husey\source\repos\BlogProject\BusinessLayer\obj\Debug\net6.0\BusinessL
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\husey\source\repos\BlogProject\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4

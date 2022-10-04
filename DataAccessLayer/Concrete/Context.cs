@@ -55,5 +55,6 @@ namespace DataAccessLayer.Concrete
         public DbSet<Admin> Admins { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<AppRole> AppRoles { get; set; }
+        public DbSet<Image> Images { get; set; }
     }
 }

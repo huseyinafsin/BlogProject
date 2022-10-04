@@ -1,3 +1,5 @@
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +36,7 @@ namespace BlogApiDemo
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
 
             });
+            services.AddScoped<IUploadService, UploadManager>();
 
         }
 

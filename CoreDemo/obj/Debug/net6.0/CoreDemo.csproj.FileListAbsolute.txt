@@ -560,6 +560,7 @@ E:\repos - Copy\BlogProject\CoreDemo\obj\Debug\net6.0\refint\CoreDemo.dll
 E:\repos - Copy\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.pdb
 E:\repos - Copy\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.genruntimeconfig.cache
 E:\repos - Copy\BlogProject\CoreDemo\obj\Debug\net6.0\ref\CoreDemo.dll
+<<<<<<< HEAD
 C:\Users\husey\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\CoreDemo.dll
 C:\Users\husey\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\husey\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\appsettings.json
@@ -841,3 +842,5 @@ C:\Users\husey\source\repos\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.pdb
 C:\Users\husey\source\repos\BlogProject\CoreDemo\obj\Debug\net6.0\CoreDemo.genruntimeconfig.cache
 C:\Users\husey\source\repos\BlogProject\CoreDemo\bin\Debug\net6.0\CoreDemo.pdb
 C:\Users\husey\source\repos\BlogProject\CoreDemo\obj\Debug\net6.0\ref\CoreDemo.dll
+=======
+>>>>>>> 82a448770931a95726b99fc23f14b51fa65c27ad

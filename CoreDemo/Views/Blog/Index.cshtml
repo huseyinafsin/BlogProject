@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/UserLayout.cshtml";
 }
 
-
 <section class="main-content-w3layouts-agileits">
     <div class="container">
         <h3 class="tittle">Blog Posts</h3>
@@ -58,7 +57,10 @@
                                     <a href="/Blog/BlogReadAll/@item.BlogUrlId">@item.BlogTitle</a>
                                 </h5>
                                 <p class="card-text mb-3">
-                                   @Html.Raw(item.BlogContent)
+                                    @if (@item.BlogContent.Length > 130)
+                                    {
+                                        @item.BlogContent.Substring(0, item.BlogContent.Substring(0, 130).LastIndexOf(" "))
+                                    }
                                 </p>
 
                                 <a href="/Blog/BlogReadAll/@item.BlogUrlId" class="btn btn-primary read-m">Devamını oku...</a>
@@ -69,5 +71,4 @@
             </div>
         </div>
     </div>
-
 </section>

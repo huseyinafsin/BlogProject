@@ -23,11 +23,9 @@
 	@Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv,new {@class="form-control"})
 	<br/>
 	@Html.Label("Blog İçeriği")
-	<div>
-@*		 @Html.TextAreaFor(x=>x.BlogContent,15,3,new{ @class="form-control"})
-*@		<textarea id="myEditor" name="BlogContent" class="form-control"> </textarea>
+	<div id="BlogContent" name="BlogContent">
 		<script>
-			var editor = new FroalaEditor('#myEditor');
+			var editor = new FroalaEditor('#BlogContent');
 		</script>
 	</div>
 	@Html.ValidationMessageFor(x=>x.BlogContent)

@@ -1906,11 +1906,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+      "projectName": "EntityLayer",
+      "projectPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\EntityLayer.csproj",
+      "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
+      "outputPath": "E:\\repos - Copy\\BlogProject\\EntityLayer\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
       "projectPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\EntityLayer.csproj",
       "packagesPath": "C:\\Users\\husey\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\husey\\source\\repos\\BlogProject\\EntityLayer\\obj\\",
+>>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\husey\\AppData\\Roaming\\NuGet\\NuGet.Config",
