@@ -2,11 +2,14 @@
 <div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
    @if (User.Identity.IsAuthenticated)
    {
-    <span>Tekrar Hoşgeldin @User.Identity.Name !</span>
+    <span>@User.Identity.Name !</span>
        <br/>
        <span class="mx-lg-4 mx-md-2  mx-1">
            <a href="/Account/LogOut">
                <i class="fas fa-sign-out-alt"></i> Çıkış Yap
+           </a>   
+           <a href="/Dashboard/Index">
+               <i class="fas fa-sign-out-alt"></i> Hesabım
            </a>
        </span>
    }

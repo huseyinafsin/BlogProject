@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
@@ -46,6 +47,11 @@ namespace BusinessLayer.Concrete
         public List<Message> GetInboxListByWriter(string p)
         {
             return _messageDal.GetListAll(x => x.Receiver == p);
+        }
+
+        public Message Get(Expression<Func<Message, bool>> expression)
+        {
+            throw new NotImplementedException();
         }
     }
 }

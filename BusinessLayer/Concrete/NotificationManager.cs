@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
+using System.Linq.Expressions;
 
 namespace BusinessLayer.Concrete
 {
@@ -18,6 +19,10 @@ namespace BusinessLayer.Concrete
             _notificationDal = notificationDal;
         }
 
+        public Notification Get(Expression<Func<Notification, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
 
         public Notification GetById(int id)
         {

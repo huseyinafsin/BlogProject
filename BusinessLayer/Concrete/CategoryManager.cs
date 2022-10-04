@@ -6,6 +6,7 @@ using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,6 +45,11 @@ namespace BusinessLayer.Concrete
         public Category GetById(int id)
         {
            return _categoryDal.GetById(id);
+        }
+
+        public Category Get(Expression<Func<Category, bool>> expression)
+        {
+            throw new NotImplementedException();
         }
     }
 }

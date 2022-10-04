@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Linq.Expressions;
 
 namespace BusinessLayer.Concrete
 {
@@ -34,6 +35,11 @@ namespace BusinessLayer.Concrete
         public Blog GetById(int id)
         {
             return _blogDal.GetById(id);
+        }
+              
+        public Blog Get(Expression<Func<Blog, bool>> expression )
+        {
+            return _blogDal.Get(expression);
         }
 
       

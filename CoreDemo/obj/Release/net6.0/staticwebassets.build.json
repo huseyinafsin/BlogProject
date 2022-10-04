@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+blHqrdVxIudYa5ziDzceqTXcBw1XsVPsT2yXDzfXqk=",
+  "Hash": "xR60q/HRqAIEjMgF7C3rLteXGNSZIKoI3Yb5/zhXxSE=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
@@ -2140,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\css\\summernote.min.css",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "css/summernote.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\summernote.min.css"
     },
     {
       "Identity": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\css\\themes\\dark.css",
@@ -30598,6 +30615,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\js\\summernote.min.js",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "js/summernote.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\summernote.min.js"
     },
     {
       "Identity": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\wwwroot\\js\\third_party\\embedly.min.js",

@@ -57,11 +57,12 @@ namespace CoreDemo.Controllers
         }
 
         [AllowAnonymous]
-        public IActionResult BlogReadAll(int id)
+        public IActionResult BlogReadAll(string blogUrlId)
         {
-            ViewBag.BlogId = id;
 
-            var value = _blogService.GetById(id);
+            var value = _blogService.Get(x => x.BlogUrlId == blogUrlId);
+            ViewBag.BlogId = value.BlogID;
+
             if (value is null)
             {
                 return NotFound();
@@ -119,9 +120,9 @@ namespace CoreDemo.Controllers
             return View();
         }
 
-        public IActionResult DeleteBlog(int id)
+        public IActionResult DeleteBlog(string blogUrlId)
         {
-            var blogvalue = _blogService.GetById(id);
+            var blogvalue = _blogService.Get(x=>x.BlogUrlId==blogUrlId);
             _blogService.TDelete(blogvalue);
 
             return RedirectToAction("BlogListByWriter", "Blog");
@@ -129,9 +130,10 @@ namespace CoreDemo.Controllers
 
 
         [HttpGet]
-        public IActionResult EditBlog(int id)
+        public IActionResult EditBlog(string blogUrlId)
         {
-            var blogvalue = _blogService.GetById(id);
+            var blogvalue = _blogService.Get(x => x.BlogUrlId == blogUrlId);
+
             List<SelectListItem> categoryalues = (from x in _categoryService.GetList()
                                                   select new SelectListItem
                                                   {

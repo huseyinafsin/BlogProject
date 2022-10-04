@@ -6,13 +6,17 @@ namespace CoreDemo.Areas.Admin.ViewComponents.Statistic
 {
     public class Statistic2: ViewComponent
     {
-        private Context context = new Context();
+        private readonly Context _context;
 
+        public Statistic2(Context context)
+        {
+            _context = context;
+        }
 
         public IViewComponentResult Invoke()
         {
-            ViewBag.v1 = context.Blogs.OrderByDescending(x=>x.BlogID).Select(x=>x.BlogTitle).Take(1).FirstOrDefault();
-            ViewBag.v3 = context.Comments.Count();
+            ViewBag.v1 = _context.Blogs.OrderByDescending(x=>x.BlogID).Select(x=>x.BlogTitle).Take(1).FirstOrDefault();
+            ViewBag.v3 = _context.Comments.Count();
             return View();
         }
     }

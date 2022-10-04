@@ -18,7 +18,7 @@
                         if (item.BlogID == 4)
                         {
                             <div class="col-lg-4 card">
-                                <a href="/Blog/BlogReadAll/@item.BlogID">
+                                <a href="/Blog/BlogReadAll/@item.BlogUrlId">
                                     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6170635205352134"
                                     crossorigin="anonymous"></script>
                                 </a>
@@ -31,7 +31,7 @@
                         }
 
                         <div class="col-lg-4 card">
-                            <a href="/Blog/BlogReadAll/@item.BlogID">
+                            <a href="/Blog/BlogReadAll/@item.BlogUrlId">
                                 <img src="@item.BlogImage" class="card-img-top img-fluid" alt="">
                             </a>
                             <div class="card-body">
@@ -55,13 +55,13 @@
 
                                 </ul>
                                 <h5 class="card-title">
-                                    <a href="/Blog/BlogReadAll/@item.BlogID">@item.BlogTitle</a>
+                                    <a href="/Blog/BlogReadAll/@item.BlogUrlId">@item.BlogTitle</a>
                                 </h5>
                                 <p class="card-text mb-3">
                                    @Html.Raw(item.BlogContent)
                                 </p>
 
-                                <a href="/Blog/BlogReadAll/@item.BlogID" class="btn btn-primary read-m">Devamını oku...</a>
+                                <a href="/Blog/BlogReadAll/@item.BlogUrlId" class="btn btn-primary read-m">Devamını oku...</a>
                             </div>
                         </div>
                     }

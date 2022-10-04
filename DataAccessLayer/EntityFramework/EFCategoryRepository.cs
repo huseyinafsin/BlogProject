@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.Repositories;
 using EntityLayer.Concrete;
 using System;
@@ -11,5 +12,8 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EFCategoryRepository : GenericRepository<Category>, ICategoryDal
     {
+        public EFCategoryRepository(Context context) : base(context)
+        {
+        }
     }
 }

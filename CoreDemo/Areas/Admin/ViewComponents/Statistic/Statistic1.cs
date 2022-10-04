@@ -9,11 +9,11 @@ namespace CoreDemo.Areas.Admin.ViewComponents.Statistic
     public class Statistic1 : ViewComponent
     {
         private IBlogService _blogService;
-        private Context context = new Context();
-
-        public Statistic1(IBlogService blogService)
+        private Context context;
+        public Statistic1(IBlogService blogService, Context context)
         {
             _blogService = blogService;
+            this.context = context;
         }
 
         public IViewComponentResult Invoke()

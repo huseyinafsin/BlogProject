@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
@@ -41,6 +42,11 @@ namespace BusinessLayer.Concrete
         public Admin GetById(int id)
         {
             return _adminDal.GetById(id);
+        }
+
+        public Admin Get(Expression<Func<Admin, bool>> expression)
+        {
+            throw new NotImplementedException();
         }
     }
 }

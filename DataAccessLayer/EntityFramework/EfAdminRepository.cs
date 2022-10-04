@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.Repositories;
 using EntityLayer.Concrete;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfAdminRepository :GenericRepository<Admin>,IAdminDal
+    public class EfAdminRepository : GenericRepository<Admin>, IAdminDal
     {
+        public EfAdminRepository(Context context) : base(context)
+        {
+        }
     }
 }

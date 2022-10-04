@@ -6,15 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace DataAccessLayer.Concrete
 {
     public class Context : IdentityDbContext<AppUser,AppRole,int>   
     {
+        private IConfiguration _configuration;
+
+        public Context(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        
         protected override void OnConfiguring( DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer("Server=77.245.159.10\\MSSQLSERVER2019;Database=blog; user=pantheon;password=cHu&781t6;");
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=CoreBlogDb;Integrated Security=true;Column Encryption Setting=enabled;");
+            var connectionString = _configuration.GetConnectionString("DefaultConnectionString");
+            base.OnConfiguring(optionsBuilder.UseSqlServer(connectionString));
+           
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
@@ -49,6 +50,9 @@ namespace BusinessLayer.Concrete
             return _message2Dal.GetListWithMessageByWriter(id);
         }
 
-       
+        public Message2 Get(Expression<Func<Message2, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

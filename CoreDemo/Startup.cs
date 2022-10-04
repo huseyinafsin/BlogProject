@@ -42,6 +42,7 @@ namespace CoreDemo
 
             });
             services.AddMvc();
+            services.AddDbContext<Context>();
             services.AddAuthentication(
                     CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(x =>
@@ -119,7 +120,7 @@ namespace CoreDemo
 
                 endpoints.MapControllerRoute(
                    name: "blog",
-                   pattern: "{controller=Blog}/{action=BlogReadAll}/{blogUrlId?}");
+                   pattern: "{controller=Blog}/{action=BlogReadAll}/{blogUrlId}");
 
                 endpoints.MapControllerRoute(
                     name: "default",

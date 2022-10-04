@@ -12,10 +12,13 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EFWriterRepository : GenericRepository<Writer>, IWriterDal
     {
+        public EFWriterRepository(Context context) : base(context)
+        {
+        }
+
         public Writer GetWriterByMail(string mail)
         {
-            Context context = new Context();
-            return context.Writers.FirstOrDefault(x => x.WriterMail == mail);
+            return _context.Writers.FirstOrDefault(x => x.WriterMail == mail);
         }
     }
 }

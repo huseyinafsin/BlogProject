@@ -1,4 +1,5 @@
-﻿using BusinessLayer.Concrete;
+﻿using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,16 @@ namespace CoreDemo.Controllers
     [AllowAnonymous]
     public class CategoryController : Controller
     {
-        CategoryManager cm = new CategoryManager(new EFCategoryRepository());
+        private ICategoryService _categoryService;
+
+        public CategoryController(ICategoryService categoryService)
+        {
+            _categoryService = categoryService;
+        }
+
         public IActionResult Index()
         {
-            var values = cm.GetList();
+            var values = _categoryService.GetList();
             return View(values);
         }
     }

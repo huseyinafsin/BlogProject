@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.Repositories;
 using EntityLayer.Concrete;
 using System;
@@ -9,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EFNotificationRepository: GenericRepository<Notification>, INotificationDal
+    public class EFNotificationRepository : GenericRepository<Notification>, INotificationDal
     {
-        
+        public EFNotificationRepository(Context context) : base(context)
+        {
+        }
     }
 }

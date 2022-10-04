@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using BusinessLayer.Abstract;
 
 namespace CoreDemo.Controllers
 {
     public class NewsLetterController : Controller
     {
-        NewsletterManager nm  = new NewsletterManager(new EfNewsletterRepository());
+        private readonly INewsletterService _newsletterService;
 
+        public NewsLetterController(INewsletterService newsletterService)
+        {
+            _newsletterService = newsletterService;
+        }
 
         public PartialViewResult SubscribeMail()
         {
@@ -23,7 +28,7 @@ namespace CoreDemo.Controllers
         public IActionResult SubscribeMail(NewsLetter p)
         {
             p.MailStatus = true;
-            nm.NewsletterAdd(p);
+            _newsletterService.NewsletterAdd(p);
 
             return RedirectToAction("BlogReadAll","Blog");
         }

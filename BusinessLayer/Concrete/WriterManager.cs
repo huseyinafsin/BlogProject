@@ -4,6 +4,7 @@ using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -56,6 +57,11 @@ namespace BusinessLayer.Concrete
         public Writer GetWriterByMail(string mail)
         {
            return _writerDal.GetWriterByMail(mail);
+        }
+
+        public Writer Get(Expression<Func<Writer, bool>> expression)
+        {
+            throw new NotImplementedException();
         }
     }
 }
