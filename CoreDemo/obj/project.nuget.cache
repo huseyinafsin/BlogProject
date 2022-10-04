@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "XlDNCA/QlUJGRDMdt4J9syt+Di0FNoRSxuOVdLn4lW8/NzbRaa7RkC6vRxLG/+jtZafL6VhtiI+F5W0RAmjmvg==",
-  "success": true,
-  "projectFilePath": "E:\\repos - Copy\\BlogProject\\CoreDemo\\CoreDemo.csproj",
-=======
   "dgSpecHash": "wrah9a7gC0wDgERnujxoBTUUqBNY80RLJtKRgp+HmVqC6zNF5FK+XABCNxEFFGutc058aK25JpLPW6+dDUI+aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\CoreDemo.csproj",
->>>>>>> a018615aba2cd6215df912f80a496bc14100a3f4
   "expectedPackageFiles": [
     "C:\\Users\\husey\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\husey\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",
@@ -229,5 +223,12 @@
     "C:\\Users\\husey\\.nuget\\packages\\x.pagedlist\\8.1.0\\x.pagedlist.8.1.0.nupkg.sha512",
     "C:\\Users\\husey\\.nuget\\packages\\x.pagedlist.mvc.core\\8.1.0\\x.pagedlist.mvc.core.8.1.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\husey\\source\\repos\\BlogProject\\CoreDemo\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
