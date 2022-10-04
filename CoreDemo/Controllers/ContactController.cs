@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using BusinessLayer.Abstract;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreDemo.Controllers
 {
+    [AllowAnonymous]
     public class ContactController : Controller
     {
         private readonly IContactService _contactService;

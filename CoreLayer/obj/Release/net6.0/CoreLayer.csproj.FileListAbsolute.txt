@@ -1,0 +1,24 @@
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.deps.json
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\ref\CoreLayer.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.pdb
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.AssemblyInfo.cs
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\ref\CoreLayer.dll
+C:\Users\pantheon\source\repos\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.pdb
+E:\repos - Copy\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.deps.json
+E:\repos - Copy\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.dll
+E:\repos - Copy\BlogProject\CoreLayer\bin\Release\net6.0\CoreLayer.pdb
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.csproj.AssemblyReference.cache
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.AssemblyInfoInputs.cache
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.AssemblyInfo.cs
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.csproj.CoreCompileInputs.cache
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.dll
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\refint\CoreLayer.dll
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\CoreLayer.pdb
+E:\repos - Copy\BlogProject\CoreLayer\obj\Release\net6.0\ref\CoreLayer.dll

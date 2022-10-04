@@ -12,7 +12,7 @@ using DataAccessLayer.Concrete;
 
 namespace CoreDemo.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     public class WriterController : Controller
     {
         readonly IWriterService _writerService;

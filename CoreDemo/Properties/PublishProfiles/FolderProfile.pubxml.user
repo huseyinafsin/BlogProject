@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-https://go.microsoft.com/fwlink/?LinkID=208121. 
+https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\pantheon\source\repos\BlogProject\CoreDemo\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>False|2022-04-20T16:31:38.2007010Z;False|2022-04-20T18:55:28.0431460+03:00;False|2022-04-20T18:45:03.8945285+03:00;</History>
+    <_PublishTargetUrl>C:\Users\husey\OneDrive\Masaüstü\blog</_PublishTargetUrl>
+    <History>True|2022-09-20T18:09:18.4783635Z;True|2022-09-20T21:00:34.9151461+03:00;True|2022-09-20T20:59:38.6545127+03:00;True|2022-09-20T17:29:55.3014846+03:00;True|2022-09-20T17:08:12.0567544+03:00;True|2022-09-20T15:29:34.9278681+03:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
 </Project>

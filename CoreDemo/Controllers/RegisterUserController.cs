@@ -16,12 +16,12 @@ namespace CoreDemo.Controllers
             _userManager = userManager;
         }
         [HttpGet]
-        public IActionResult SingUp()
+        public IActionResult Index()
         {
             return View();
         }   
         [HttpPost]
-        public async Task<IActionResult> SingUp(UserSignUpViewModel model)
+        public async Task<IActionResult> Index(UserSignUpViewModel model)
         {
             if (ModelState.IsValid)
             {

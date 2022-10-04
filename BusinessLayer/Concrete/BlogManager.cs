@@ -55,6 +55,7 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(Blog t)
         {
+            t.BlogUrlId = t.BlogTitle.Replace(" ", "-") + DateTime.Now.ToString().Replace(" ","-");
             _blogDal.Insert(t);
         }
 

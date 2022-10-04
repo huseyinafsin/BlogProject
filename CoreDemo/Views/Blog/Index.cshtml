@@ -14,6 +14,21 @@
                 <div class="row">
                     @foreach (var item in Model)
                     {
+                        if (item.BlogID == 4)
+                        {
+                            <div class="col-lg-4 card">
+                                <a href="/Blog/BlogReadAll/@item.BlogID">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6170635205352134"
+                                    crossorigin="anonymous"></script>
+                                </a>
+                                <div class="card-body">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6170635205352134"
+                                    crossorigin="anonymous"></script>
+                                </div>
+                            </div>
+
+                        }
+
                         <div class="col-lg-4 card">
                             <a href="/Blog/BlogReadAll/@item.BlogID">
                                 <img src="@item.BlogImage" class="card-img-top img-fluid" alt="">
@@ -41,12 +56,12 @@
                                 <h5 class="card-title">
                                     <a href="/Blog/BlogReadAll/@item.BlogID">@item.BlogTitle</a>
                                 </h5>
-								<p class="card-text mb-3">
-									@if (@item.BlogContent.Length > 130)
-									{
-										@item.BlogContent.Substring(0, item.BlogContent.Substring(0, 130).LastIndexOf(" "))
-																			}
-								</p>
+                                <p class="card-text mb-3">
+                                    @if (@item.BlogContent.Length > 130)
+                                    {
+                                        @item.BlogContent.Substring(0, item.BlogContent.Substring(0, 130).LastIndexOf(" "))
+                                    }
+                                </p>
                                 <a href="/Blog/BlogReadAll/@item.BlogID" class="btn btn-primary read-m">Devamını oku...</a>
                             </div>
                         </div>

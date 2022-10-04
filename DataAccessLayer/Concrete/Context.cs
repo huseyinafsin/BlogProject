@@ -13,7 +13,8 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring( DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=77.245.159.10\\MSSQLSERVER2019;Database=CoreBlogDb; user=pantheon;password=cHu&781t6;");
+            //optionsBuilder.UseSqlServer("Server=77.245.159.10\\MSSQLSERVER2019;Database=blog; user=pantheon;password=cHu&781t6;");
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=CoreBlogDb;Integrated Security=true;Column Encryption Setting=enabled;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

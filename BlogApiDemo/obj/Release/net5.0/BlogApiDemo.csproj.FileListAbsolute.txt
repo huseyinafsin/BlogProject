@@ -1,5 +1,3 @@
-C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\bin\Release\net5.0\appsettings.Development.json
-C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\bin\Release\net5.0\appsettings.json
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.exe
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.deps.json
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.runtimeconfig.json
@@ -59,3 +57,62 @@ C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogAp
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\obj\Release\net5.0\ref\BlogApiDemo.dll
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.pdb
 C:\Users\pantheon\source\repos\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.genruntimeconfig.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.exe
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.deps.json
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.runtimeconfig.json
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.runtimeconfig.dev.json
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\BlogApiDemo.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Humanizer.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.Identity.Client.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Microsoft.OpenApi.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Newtonsoft.Json.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\System.Runtime.Caching.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.csproj.AssemblyReference.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.AssemblyInfoInputs.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.AssemblyInfo.cs
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.csproj.CoreCompileInputs.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.MvcApplicationPartsAssemblyInfo.cs
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.MvcApplicationPartsAssemblyInfo.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\scopedcss\bundle\BlogApiDemo.styles.css
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\staticwebassets\BlogApiDemo.StaticWebAssets.Manifest.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.RazorTargetAssemblyInfo.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.csproj.CopyComplete
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\refint\BlogApiDemo.dll
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.pdb
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\BlogApiDemo.genruntimeconfig.cache
+E:\repos - Copy\BlogProject\BlogApiDemo\obj\Release\net5.0\ref\BlogApiDemo.dll

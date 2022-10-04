@@ -217,6 +217,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("BlogTitle")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("BlogUrlId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 

@@ -10,3 +10,15 @@ C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\Entity
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\ref\EntityLayer.dll
 C:\Users\pantheon\source\repos\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.pdb
+E:\repos - Copy\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.deps.json
+E:\repos - Copy\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.dll
+E:\repos - Copy\BlogProject\EntityLayer\bin\Release\net6.0\EntityLayer.pdb
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.csproj.AssemblyReference.cache
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.AssemblyInfoInputs.cache
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.AssemblyInfo.cs
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.dll
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\refint\EntityLayer.dll
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\EntityLayer.pdb
+E:\repos - Copy\BlogProject\EntityLayer\obj\Release\net6.0\ref\EntityLayer.dll
